@@ -1,0 +1,47 @@
+{
+  "threads": {
+    "thread-1": [
+      {
+        "startNs": 0,
+        "endNs": 10000,
+        "label": "INIT",
+        "stack": [0,1,2] // indexes of "frames"
+      },
+      {
+        "startNs": 20000,
+        "endNs": 30000,
+        "label": "HOLD"
+      }
+    ],
+    "thread-2": [
+      {
+        "startNs": 50000,
+        "endNs": 50001,
+        "label": "SOMETHING",
+        "stack": [0,3,4] // indexes of "frames"
+      },
+      {
+        "startNs": 80000,
+        "endNs": 100000,
+        "label": "WAIT"
+      }
+    ]
+  },
+  "timeRange": {
+    "startNs": 0,
+    "endNs": 100000
+  },
+  "frames": [ // Array of array of strings.
+    [0 /* filename */, 1 /* package */, 2 /* class */, 3 /* method */, 34 /* line number */], // frame 0
+    [0 /* filename */, 4 /* package */, 5 /* class */, 6 /* method */, 12 /* line number */], // frame 1
+  ],
+  "strings": [
+    "main.java", // 0
+    "com.datadog", // 1
+    "MyClass", // 2
+    "doSomething()", // 3
+    "com.spring.hello", // 4
+    "MyOtherClass", // 5
+    "lockMe()", // 6
+  ]
+}
