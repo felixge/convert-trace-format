@@ -63,6 +63,7 @@ func (c *Cmd) Run() error {
 
 	out := &Iteration2Format{
 		Threads: map[string][]*Iteration2Event{},
+		Version: "1.2",
 	}
 	ft := NewFrameTable()
 	for goroutineID, events := range stacks {
@@ -192,6 +193,7 @@ type Iteration2Format struct {
 	TimeRange Iteration2TimeRange           `json:"timeRange"`
 	Frames    [][]int                       `json:"frames"`
 	Strings   []string                      `json:"strings"`
+	Version   string                        `json:"version"`
 }
 
 type Iteration2Event struct {

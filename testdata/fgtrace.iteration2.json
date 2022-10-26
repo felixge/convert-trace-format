@@ -6,8 +6,8 @@
         "endNs": 101004000,
         "label": "sleep",
         "stack": [
-          4,
-          5
+          37,
+          38
         ]
       },
       {
@@ -15,16 +15,16 @@
         "endNs": 146168000,
         "label": "select",
         "stack": [
-          4,
-          6,
-          7,
-          8,
-          9,
-          10,
-          11,
-          12,
-          13,
-          14
+          37,
+          39,
+          40,
+          41,
+          42,
+          43,
+          44,
+          45,
+          46,
+          47
         ]
       },
       {
@@ -32,18 +32,18 @@
         "endNs": 167069000,
         "label": "select",
         "stack": [
-          4,
-          6,
-          7,
-          8,
-          9,
-          10,
-          11,
-          12,
-          13,
-          15,
-          16,
-          17
+          37,
+          39,
+          40,
+          41,
+          42,
+          43,
+          44,
+          45,
+          46,
+          48,
+          49,
+          50
         ]
       },
       {
@@ -51,21 +51,21 @@
         "endNs": 183051000,
         "label": "sync.Cond.Wait",
         "stack": [
-          4,
-          18,
-          19,
-          20,
-          21,
-          22,
-          23,
-          24,
-          25,
-          26,
-          27,
-          28,
-          29,
-          30,
-          31
+          37,
+          51,
+          52,
+          17,
+          53,
+          54,
+          55,
+          56,
+          57,
+          58,
+          59,
+          60,
+          61,
+          62,
+          63
         ]
       },
       {
@@ -73,21 +73,21 @@
         "endNs": 195084000,
         "label": "sync.Cond.Wait",
         "stack": [
-          4,
-          18,
-          19,
-          20,
-          21,
-          22,
-          23,
-          32,
-          25,
-          26,
-          27,
-          28,
-          29,
-          30,
-          31
+          37,
+          51,
+          52,
+          17,
+          53,
+          54,
+          55,
+          64,
+          57,
+          58,
+          59,
+          60,
+          61,
+          62,
+          63
         ]
       },
       {
@@ -95,21 +95,21 @@
         "endNs": 199041000,
         "label": "sync.Cond.Wait",
         "stack": [
-          4,
-          18,
-          19,
-          20,
-          21,
-          22,
-          23,
-          32,
-          33,
-          26,
-          27,
-          28,
-          29,
-          30,
-          31
+          37,
+          51,
+          52,
+          17,
+          53,
+          54,
+          55,
+          64,
+          65,
+          58,
+          59,
+          60,
+          61,
+          62,
+          63
         ]
       },
       {
@@ -117,13 +117,13 @@
         "endNs": 200001000,
         "label": "running/runnable",
         "stack": [
-          4,
-          18,
-          19,
-          20,
-          34,
-          35,
-          36
+          37,
+          51,
+          52,
+          17,
+          66,
+          67,
+          68
         ]
       },
       {
@@ -131,9 +131,9 @@
         "endNs": 502005000,
         "label": "running/runnable",
         "stack": [
-          4,
           37,
-          38
+          69,
+          70
         ]
       }
     ],
@@ -143,13 +143,13 @@
         "endNs": 104035000,
         "label": "select",
         "stack": [
-          59,
-          60,
-          61,
-          62,
-          63,
-          64,
-          65
+          74,
+          75,
+          76,
+          77,
+          78,
+          79,
+          80
         ]
       },
       {
@@ -157,23 +157,23 @@
         "endNs": 121035000,
         "label": "IO wait",
         "stack": [
-          59,
-          60,
-          61,
-          62,
-          66,
-          67,
-          68,
-          69,
-          70,
-          71,
-          72,
-          73,
           74,
           75,
           76,
-          57,
-          58
+          77,
+          81,
+          82,
+          83,
+          84,
+          85,
+          86,
+          87,
+          88,
+          89,
+          90,
+          91,
+          23,
+          24
         ]
       },
       {
@@ -181,9 +181,9 @@
         "endNs": 145879000,
         "label": "chan receive",
         "stack": [
-          59,
-          60,
-          77
+          74,
+          75,
+          92
         ]
       },
       {
@@ -191,10 +191,10 @@
         "endNs": 146168000,
         "label": "chan receive",
         "stack": [
-          59,
-          60,
-          78,
-          79
+          74,
+          75,
+          93,
+          94
         ]
       }
     ],
@@ -204,11 +204,11 @@
         "endNs": 104035000,
         "label": "select",
         "stack": [
-          80,
-          81,
-          82,
-          83,
-          84
+          0,
+          1,
+          2,
+          3,
+          4
         ]
       }
     ],
@@ -218,10 +218,10 @@
         "endNs": 104035000,
         "label": "syscall",
         "stack": [
-          39,
-          40,
-          41,
-          42
+          5,
+          6,
+          7,
+          8
         ]
       }
     ],
@@ -231,22 +231,22 @@
         "endNs": 145879000,
         "label": "IO wait",
         "stack": [
-          44,
-          45,
-          46,
-          47,
-          48,
-          49,
-          50,
-          51,
+          9,
+          10,
+          11,
+          12,
+          13,
+          14,
+          15,
+          16,
+          17,
+          18,
+          19,
           20,
-          52,
-          53,
-          54,
-          55,
-          56,
-          57,
-          58
+          21,
+          22,
+          23,
+          24
         ]
       }
     ],
@@ -256,10 +256,10 @@
         "endNs": 146168000,
         "label": "running/runnable",
         "stack": [
-          0,
-          1,
-          2,
-          3
+          25,
+          26,
+          27,
+          28
         ]
       }
     ],
@@ -269,25 +269,25 @@
         "endNs": 167069000,
         "label": "IO wait",
         "stack": [
-          87,
-          88,
-          89,
-          90,
-          91,
-          92,
-          93,
-          94,
-          49,
-          50,
-          51,
+          29,
+          30,
+          31,
+          32,
+          33,
+          34,
+          35,
+          36,
+          14,
+          15,
+          16,
+          17,
+          18,
+          19,
           20,
-          52,
-          53,
-          54,
-          55,
-          56,
-          57,
-          58
+          21,
+          22,
+          23,
+          24
         ]
       },
       {
@@ -295,24 +295,24 @@
         "endNs": 199041000,
         "label": "IO wait",
         "stack": [
-          87,
-          88,
-          89,
-          91,
-          92,
-          93,
-          94,
-          49,
-          50,
-          51,
+          29,
+          30,
+          31,
+          33,
+          34,
+          35,
+          36,
+          14,
+          15,
+          16,
+          17,
+          18,
+          19,
           20,
-          52,
-          53,
-          54,
-          55,
-          56,
-          57,
-          58
+          21,
+          22,
+          23,
+          24
         ]
       },
       {
@@ -320,25 +320,25 @@
         "endNs": 502166000,
         "label": "IO wait",
         "stack": [
-          87,
-          88,
-          89,
-          90,
-          91,
-          92,
-          93,
-          94,
-          49,
-          50,
-          51,
+          29,
+          30,
+          31,
+          32,
+          33,
+          34,
+          35,
+          36,
+          14,
+          15,
+          16,
+          17,
+          18,
+          19,
           20,
-          52,
-          53,
-          54,
-          55,
-          56,
-          57,
-          58
+          21,
+          22,
+          23,
+          24
         ]
       }
     ],
@@ -348,8 +348,8 @@
         "endNs": 199041000,
         "label": "select",
         "stack": [
-          85,
-          86
+          72,
+          73
         ]
       }
     ],
@@ -359,7 +359,7 @@
         "endNs": 121035000,
         "label": "select",
         "stack": [
-          43
+          71
         ]
       }
     ]
@@ -373,343 +373,7 @@
       0,
       0,
       0,
-      69,
-      0
-    ],
-    [
-      0,
-      0,
-      0,
-      64,
-      0
-    ],
-    [
-      0,
-      0,
-      0,
-      46,
-      0
-    ],
-    [
-      0,
-      0,
-      0,
-      82,
-      0
-    ],
-    [
-      0,
-      0,
-      0,
-      29,
-      0
-    ],
-    [
-      0,
-      0,
-      0,
-      65,
-      0
-    ],
-    [
-      0,
-      0,
-      0,
-      39,
-      0
-    ],
-    [
-      0,
-      0,
-      0,
-      22,
-      0
-    ],
-    [
-      0,
-      0,
-      0,
-      23,
-      0
-    ],
-    [
-      0,
-      0,
-      0,
-      95,
-      0
-    ],
-    [
-      0,
-      0,
-      0,
-      38,
-      0
-    ],
-    [
-      0,
-      0,
-      0,
-      9,
-      0
-    ],
-    [
-      0,
-      0,
-      0,
-      21,
-      0
-    ],
-    [
-      0,
-      0,
-      0,
-      58,
-      0
-    ],
-    [
-      0,
-      0,
-      0,
-      40,
-      0
-    ],
-    [
-      0,
-      0,
-      0,
-      13,
-      0
-    ],
-    [
-      0,
-      0,
-      0,
-      41,
-      0
-    ],
-    [
-      0,
-      0,
-      0,
-      24,
-      0
-    ],
-    [
-      0,
-      0,
-      0,
-      53,
-      0
-    ],
-    [
-      0,
-      0,
-      0,
-      25,
-      0
-    ],
-    [
-      0,
-      0,
-      0,
-      59,
-      0
-    ],
-    [
-      0,
-      0,
-      0,
-      26,
-      0
-    ],
-    [
-      0,
-      0,
-      0,
-      14,
-      0
-    ],
-    [
-      0,
-      0,
-      0,
-      15,
-      0
-    ],
-    [
-      0,
-      0,
-      0,
-      10,
-      0
-    ],
-    [
-      0,
-      0,
-      0,
-      6,
-      0
-    ],
-    [
-      0,
-      0,
-      0,
-      77,
-      0
-    ],
-    [
-      0,
-      0,
-      0,
-      16,
-      0
-    ],
-    [
-      0,
-      0,
-      0,
-      88,
-      0
-    ],
-    [
-      0,
-      0,
-      0,
-      76,
-      0
-    ],
-    [
-      0,
-      0,
-      0,
-      27,
-      0
-    ],
-    [
-      0,
-      0,
-      0,
-      54,
-      0
-    ],
-    [
-      0,
-      0,
-      0,
-      66,
-      0
-    ],
-    [
-      0,
-      0,
-      0,
-      55,
-      0
-    ],
-    [
-      0,
-      0,
-      0,
-      73,
-      0
-    ],
-    [
-      0,
-      0,
-      0,
-      60,
-      0
-    ],
-    [
-      0,
-      0,
-      0,
-      89,
-      0
-    ],
-    [
-      0,
-      0,
-      0,
-      67,
-      0
-    ],
-    [
-      0,
-      0,
-      0,
-      42,
-      0
-    ],
-    [
-      0,
-      0,
-      0,
-      28,
-      0
-    ],
-    [
-      0,
-      0,
-      0,
-      78,
-      0
-    ],
-    [
-      0,
-      0,
-      0,
-      70,
-      0
-    ],
-    [
-      0,
-      0,
-      0,
-      1,
-      0
-    ],
-    [
-      0,
-      0,
-      0,
-      11,
-      0
-    ],
-    [
-      0,
-      0,
-      0,
-      32,
-      0
-    ],
-    [
-      0,
-      0,
-      0,
-      7,
-      0
-    ],
-    [
-      0,
-      0,
-      0,
-      87,
-      0
-    ],
-    [
-      0,
-      0,
-      0,
-      90,
-      0
-    ],
-    [
-      0,
-      0,
-      0,
-      79,
+      63,
       0
     ],
     [
@@ -723,98 +387,147 @@
       0,
       0,
       0,
-      2,
+      75,
       0
     ],
     [
       0,
       0,
       0,
-      68,
+      69,
       0
     ],
     [
       0,
       0,
       0,
-      30,
+      23,
       0
     ],
     [
       0,
       0,
       0,
-      43,
+      86,
       0
     ],
     [
       0,
       0,
       0,
-      31,
+      90,
       0
     ],
     [
       0,
       0,
       0,
-      61,
+      34,
       0
     ],
     [
       0,
       0,
       0,
-      18,
+      87,
       0
     ],
     [
       0,
       0,
       0,
-      3,
+      7,
       0
     ],
     [
       0,
       0,
       0,
-      83,
+      8,
       0
     ],
     [
       0,
       0,
       0,
-      12,
+      64,
       0
     ],
     [
       0,
       0,
       0,
-      91,
+      9,
       0
     ],
     [
       0,
       0,
       0,
-      33,
+      40,
       0
     ],
     [
       0,
       0,
       0,
-      84,
+      10,
       0
     ],
     [
       0,
       0,
       0,
-      92,
+      24,
+      0
+    ],
+    [
+      0,
+      0,
+      0,
+      65,
+      0
+    ],
+    [
+      0,
+      0,
+      0,
+      35,
+      0
+    ],
+    [
+      0,
+      0,
+      0,
+      32,
+      0
+    ],
+    [
+      0,
+      0,
+      0,
+      36,
+      0
+    ],
+    [
+      0,
+      0,
+      0,
+      11,
+      0
+    ],
+    [
+      0,
+      0,
+      0,
+      66,
+      0
+    ],
+    [
+      0,
+      0,
+      0,
+      70,
       0
     ],
     [
@@ -828,7 +541,301 @@
       0,
       0,
       0,
+      18,
+      0
+    ],
+    [
+      0,
+      0,
+      0,
+      71,
+      0
+    ],
+    [
+      0,
+      0,
+      0,
+      1,
+      0
+    ],
+    [
+      0,
+      0,
+      0,
+      2,
+      0
+    ],
+    [
+      0,
+      0,
+      0,
+      46,
+      0
+    ],
+    [
+      0,
+      0,
+      0,
+      29,
+      0
+    ],
+    [
+      0,
+      0,
+      0,
+      91,
+      0
+    ],
+    [
+      0,
+      0,
+      0,
+      76,
+      0
+    ],
+    [
+      0,
+      0,
+      0,
+      92,
+      0
+    ],
+    [
+      0,
+      0,
+      0,
+      72,
+      0
+    ],
+    [
+      0,
+      0,
+      0,
       19,
+      0
+    ],
+    [
+      0,
+      0,
+      0,
+      80,
+      0
+    ],
+    [
+      0,
+      0,
+      0,
+      81,
+      0
+    ],
+    [
+      0,
+      0,
+      0,
+      88,
+      0
+    ],
+    [
+      0,
+      0,
+      0,
+      47,
+      0
+    ],
+    [
+      0,
+      0,
+      0,
+      77,
+      0
+    ],
+    [
+      0,
+      0,
+      0,
+      57,
+      0
+    ],
+    [
+      0,
+      0,
+      0,
+      78,
+      0
+    ],
+    [
+      0,
+      0,
+      0,
+      30,
+      0
+    ],
+    [
+      0,
+      0,
+      0,
+      93,
+      0
+    ],
+    [
+      0,
+      0,
+      0,
+      73,
+      0
+    ],
+    [
+      0,
+      0,
+      0,
+      82,
+      0
+    ],
+    [
+      0,
+      0,
+      0,
+      41,
+      0
+    ],
+    [
+      0,
+      0,
+      0,
+      48,
+      0
+    ],
+    [
+      0,
+      0,
+      0,
+      12,
+      0
+    ],
+    [
+      0,
+      0,
+      0,
+      49,
+      0
+    ],
+    [
+      0,
+      0,
+      0,
+      5,
+      0
+    ],
+    [
+      0,
+      0,
+      0,
+      20,
+      0
+    ],
+    [
+      0,
+      0,
+      0,
+      50,
+      0
+    ],
+    [
+      0,
+      0,
+      0,
+      83,
+      0
+    ],
+    [
+      0,
+      0,
+      0,
+      51,
+      0
+    ],
+    [
+      0,
+      0,
+      0,
+      6,
+      0
+    ],
+    [
+      0,
+      0,
+      0,
+      89,
+      0
+    ],
+    [
+      0,
+      0,
+      0,
+      84,
+      0
+    ],
+    [
+      0,
+      0,
+      0,
+      58,
+      0
+    ],
+    [
+      0,
+      0,
+      0,
+      3,
+      0
+    ],
+    [
+      0,
+      0,
+      0,
+      37,
+      0
+    ],
+    [
+      0,
+      0,
+      0,
+      31,
+      0
+    ],
+    [
+      0,
+      0,
+      0,
+      94,
+      0
+    ],
+    [
+      0,
+      0,
+      0,
+      85,
+      0
+    ],
+    [
+      0,
+      0,
+      0,
+      59,
+      0
+    ],
+    [
+      0,
+      0,
+      0,
+      33,
+      0
+    ],
+    [
+      0,
+      0,
+      0,
+      13,
       0
     ],
     [
@@ -849,49 +856,42 @@
       0,
       0,
       0,
-      85,
+      21,
       0
     ],
     [
       0,
       0,
       0,
-      80,
+      60,
       0
     ],
     [
       0,
       0,
       0,
-      20,
+      61,
       0
     ],
     [
       0,
       0,
       0,
-      52,
+      22,
       0
     ],
     [
       0,
       0,
       0,
-      48,
+      42,
       0
     ],
     [
       0,
       0,
       0,
-      5,
-      0
-    ],
-    [
-      0,
-      0,
-      0,
-      62,
+      67,
       0
     ],
     [
@@ -905,14 +905,84 @@
       0,
       0,
       0,
-      34,
+      25,
       0
     ],
     [
       0,
       0,
       0,
-      63,
+      54,
+      0
+    ],
+    [
+      0,
+      0,
+      0,
+      68,
+      0
+    ],
+    [
+      0,
+      0,
+      0,
+      38,
+      0
+    ],
+    [
+      0,
+      0,
+      0,
+      26,
+      0
+    ],
+    [
+      0,
+      0,
+      0,
+      55,
+      0
+    ],
+    [
+      0,
+      0,
+      0,
+      16,
+      0
+    ],
+    [
+      0,
+      0,
+      0,
+      62,
+      0
+    ],
+    [
+      0,
+      0,
+      0,
+      27,
+      0
+    ],
+    [
+      0,
+      0,
+      0,
+      39,
+      0
+    ],
+    [
+      0,
+      0,
+      0,
+      43,
+      0
+    ],
+    [
+      0,
+      0,
+      0,
+      95,
       0
     ],
     [
@@ -926,211 +996,142 @@
       0,
       0,
       0,
-      93,
+      14,
       0
     ],
     [
       0,
       0,
       0,
-      35,
+      15,
       0
     ],
     [
       0,
       0,
       0,
-      81,
+      52,
       0
     ],
     [
       0,
       0,
       0,
-      8,
+      79,
       0
     ],
     [
       0,
       0,
       0,
-      71,
+      53,
       0
     ],
     [
       0,
       0,
       0,
-      94,
-      0
-    ],
-    [
-      0,
-      0,
-      0,
-      49,
-      0
-    ],
-    [
-      0,
-      0,
-      0,
-      50,
-      0
-    ],
-    [
-      0,
-      0,
-      0,
-      75,
-      0
-    ],
-    [
-      0,
-      0,
-      0,
-      86,
-      0
-    ],
-    [
-      0,
-      0,
-      0,
-      72,
-      0
-    ],
-    [
-      0,
-      0,
-      0,
-      36,
-      0
-    ],
-    [
-      0,
-      0,
-      0,
-      37,
-      0
-    ],
-    [
-      0,
-      0,
-      0,
-      51,
-      0
-    ],
-    [
-      0,
-      0,
-      0,
-      47,
-      0
-    ],
-    [
-      0,
-      0,
-      0,
-      57,
+      28,
       0
     ]
   ],
   "strings": [
     "",
-    "net._C2func_getaddrinfo",
-    "crypto/tls.(*Conn).readRecordOrCCS",
-    "internal/poll.(*pollDesc).wait",
-    "net.(*sysDialer).dialParallel",
-    "net.(*netFD).dial",
-    "compress/flate.(*decompressor).moreBits",
-    "crypto/tls.(*Conn).HandshakeContext",
-    "net.glob..func1",
-    "net/http.send",
-    "compress/flate.(*decompressor).nextBlock",
-    "net.(*netFD).connect.func2",
-    "net/http.(*Transport).dialConnFor",
-    "net/http.(*http2Transport).RoundTrip",
-    "compress/gzip.(*Reader).Read",
-    "compress/flate.(*decompressor).Read",
+    "net/http.(*http2Transport).NewClientConn",
+    "net/http.(*http2Transport).newClientConn",
     "bufio.(*Reader).fill",
-    "crypto/tls.(*Conn).readRecord",
-    "internal/poll.(*pollDesc).waitRead",
-    "net.(*Resolver).lookupIPAddr",
-    "net.(*sysDialer).doDialTCP",
-    "net/http.(*Transport).RoundTrip",
-    "net/http.(*Client).Get",
-    "net/http.(*Client).Do",
+    "bytes.growSlice",
     "net/http.(*http2ClientConn).RoundTrip",
-    "io.copyBuffer",
-    "net/http.(*http2gzipReader).Read",
-    "sync.(*Cond).Wait",
-    "net.cgoIPLookup",
-    "main.main",
-    "crypto/tls.(*atLeastReader).Read",
-    "net.(*netFD).Read",
+    "compress/flate.(*decompressor).Read",
     "net/http.(*persistConn).addTLS.func2",
+    "crypto/tls.(*Conn).HandshakeContext",
+    "crypto/tls.(*Conn).clientHandshake",
+    "crypto/tls.(*Conn).readRecord",
+    "net.(*netFD).Read",
+    "net/http.(*http2Transport).RoundTrip",
+    "bytes.(*Buffer).grow",
+    "net.(*netFD).connect",
+    "internal/poll.(*FD).WaitWrite",
+    "net.(*sysDialer).dialSerial",
+    "net.(*Resolver).lookupIPAddr.func1",
+    "internal/poll.runtime_pollWait",
+    "io.ReadAtLeast",
+    "io.Copy",
+    "crypto/sha1.Sum",
+    "net/http.(*http2clientStream).doRequest",
+    "net.cgoLookupIP",
+    "crypto/tls.(*Conn).readRecordOrCCS",
     "net/http.(*Transport).dial",
-    "internal/poll.(*pollDesc).waitWrite",
-    "internal/singleflight.(*Group).doCall",
-    "net/http.http2readFrameHeader",
-    "io.ReadFull",
-    "net/http.(*Client).send",
-    "net/http.Get",
+    "net.(*Resolver).lookupIPAddr",
+    "net.(*sysDialer).dialTCP",
+    "net/http.(*http2clientConnPool).addConnIfNeeded",
+    "net/http.(*http2ClientConn).readLoop",
+    "net/http.(*Client).do",
+    "net/http.(*http2pipe).Read",
+    "crypto/tls.(*atLeastReader).Read",
+    "compress/flate.(*decompressor).huffSym",
+    "net.cgoLookupIPCNAME.func1",
+    "bytes.(*Buffer).ReadFrom",
+    "net.(*conn).Read",
+    "net/http.http2transportResponseBody.Read",
+    "net.(*Resolver).internetAddrList",
+    "net.(*sysDialer).doDialTCP",
+    "crypto/tls.(*Conn).readHandshake",
+    "net/http.(*Transport).roundTrip",
+    "net/http.(*http2clientStream).writeRequest",
+    "net.internetSocket",
+    "net/http.(*Transport).dialConn",
+    "net.(*netFD).dial",
+    "vendor/golang.org/x/net/http2/hpack.NewEncoder",
+    "time.Sleep",
     "net/http.(*Transport).getConn",
     "net/http.(*http2Transport).RoundTripOpt",
-    "crypto/sha1.(*digest).checkSum",
-    "net.(*conn).Read",
-    "internal/poll.(*FD).WaitWrite",
+    "io.copyBuffer",
+    "compress/gzip.(*Reader).Read",
+    "internal/poll.(*pollDesc).waitWrite",
     "net/http.http2configureTransports.func1",
-    "net/http.(*http2Transport).newClientConn",
-    "bufio.(*Reader).Read",
-    "net.socket",
-    "net/http.(*http2clientStream).doRequest",
-    "net/http.(*http2clientStream).writeRequest",
-    "io.ReadAtLeast",
-    "net.internetSocket",
-    "io.Copy",
-    "sync.runtime_notifyListWait",
-    "compress/flate.(*decompressor).huffSym",
-    "net.(*Resolver).internetAddrList",
-    "crypto/tls.(*Conn).Read",
-    "net/http.(*Transport).roundTrip",
-    "bytes.(*Buffer).ReadFrom",
-    "bytes.growSlice",
-    "internal/poll.(*FD).Read",
-    "net.(*netFD).connect",
-    "net/http.(*persistConn).addTLS",
-    "net/http.(*http2Transport).NewClientConn",
-    "time.Sleep",
-    "compress/flate.(*decompressor).huffmanBlock",
-    "crypto/sha1.Sum",
-    "crypto/tls.(*Conn).readFromUntil",
-    "net/http.(*http2addConnCall).run",
-    "net.cgoLookupIPCNAME.func1",
-    "net.(*Resolver).lookupIP",
-    "net/http.(*http2Framer).ReadFrame",
-    "bytes.(*Buffer).grow",
-    "net.(*sysDialer).dialSerial",
-    "net/http.(*http2ClientConn).readLoop",
-    "net/http.(*http2pipe).Read",
-    "bufio.(*Reader).ReadByte",
-    "net.cgoLookupIPCNAME",
-    "crypto/tls.(*Conn).readHandshake",
-    "net.(*sysDialer).dialTCP",
-    "net.(*Resolver).lookupIPAddr.func1",
-    "vendor/golang.org/x/net/http2/hpack.NewEncoder",
-    "internal/poll.runtime_pollWait",
     "net.(*Dialer).DialContext",
+    "net.(*sysDialer).dialParallel",
+    "internal/poll.(*pollDesc).wait",
+    "net/http.(*Client).Get",
+    "bufio.(*Reader).ReadByte",
+    "compress/flate.(*decompressor).huffmanBlock",
+    "crypto/sha1.(*digest).checkSum",
+    "net.(*netFD).connect.func2",
     "net.(*sysDialer).dialSingle",
-    "net/http.(*http2clientConnReadLoop).run",
+    "internal/singleflight.(*Group).doCall",
     "crypto/tls.(*Conn).handshakeContext",
-    "net/http.http2transportResponseBody.Read",
-    "bytes.growSlice.func1",
-    "crypto/tls.(*Conn).clientHandshake",
-    "net/http.(*Transport).dialConn",
+    "crypto/tls.(*Conn).readFromUntil",
+    "internal/poll.(*FD).Read",
+    "net/http.(*Transport).dialConnFor",
     "net.(*Resolver).resolveAddrList",
-    "net/http.(*http2clientConnPool).addConnIfNeeded",
-    "net.cgoLookupIP",
-    "net/http.(*Client).do"
-  ]
+    "net.(*Resolver).lookupIP",
+    "internal/poll.(*pollDesc).waitRead",
+    "net/http.(*http2addConnCall).run",
+    "io.ReadFull",
+    "net/http.send",
+    "bytes.growSlice.func1",
+    "net.glob..func1",
+    "net/http.(*http2Framer).ReadFrame",
+    "net/http.Get",
+    "net/http.(*Client).Do",
+    "net/http.(*persistConn).addTLS",
+    "bufio.(*Reader).Read",
+    "crypto/tls.(*Conn).Read",
+    "net/http.(*Transport).RoundTrip",
+    "net/http.(*http2gzipReader).Read",
+    "compress/flate.(*decompressor).moreBits",
+    "sync.runtime_notifyListWait",
+    "net.cgoIPLookup",
+    "net._C2func_getaddrinfo",
+    "main.main",
+    "compress/flate.(*decompressor).nextBlock",
+    "net.cgoLookupIPCNAME",
+    "net/http.(*http2clientConnReadLoop).run",
+    "net/http.http2readFrameHeader",
+    "net/http.(*Client).send",
+    "sync.(*Cond).Wait",
+    "net.socket"
+  ],
+  "version": "1.2"
 }
